@@ -24,7 +24,7 @@ kotlin {
         ios.deploymentTarget = "15.0"
         framework {
             baseName = "shared"
-            isStatic = true
+            isStatic = false
         }
     }
 
