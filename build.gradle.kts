@@ -17,15 +17,6 @@ kotlin {
     iosArm64()
     iosSimulatorArm64()
 
-//    multiplatformSwiftPackage {
-//        packageName("shared")
-//        swiftToolsVersion("5.3")
-//        targetPlatforms {
-//            iOS { v("17") }
-//        }
-//        outputDirectory(File(rootDir, "/"))
-//    }
-
     cocoapods {
         summary = "Some description for the Shared Module"
         homepage = "Link to the Shared Module homepage"
@@ -36,7 +27,7 @@ kotlin {
             isStatic = true
         }
     }
-    
+
     sourceSets {
         commonMain.dependencies {
             //put your multiplatform dependencies here
