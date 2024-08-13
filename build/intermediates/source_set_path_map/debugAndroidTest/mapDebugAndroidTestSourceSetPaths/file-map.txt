@@ -1,0 +1,5 @@
+br.com.dti.poc_sw.test.shared-androidTest-0 /Users/dtidigital/AndroidStudioProjects/POC_SW/shared/build/generated/res/resValues/androidTest/debug
+br.com.dti.poc_sw.test.shared-mergeDebugAndroidTestResources-1 /Users/dtidigital/AndroidStudioProjects/POC_SW/shared/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+br.com.dti.poc_sw.test.shared-mergeDebugAndroidTestResources-2 /Users/dtidigital/AndroidStudioProjects/POC_SW/shared/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+br.com.dti.poc_sw.test.shared-debugAndroidTest-3 /Users/dtidigital/AndroidStudioProjects/POC_SW/shared/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+br.com.dti.poc_sw.test.shared-debug-4 /Users/dtidigital/AndroidStudioProjects/POC_SW/shared/build/intermediates/packaged_res/debug/packageDebugResources
