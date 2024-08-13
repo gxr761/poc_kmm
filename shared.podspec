@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
     spec.name                     = 'shared'
     spec.version                  = '1.0'
     spec.homepage                 = 'Link to the Shared Module homepage'
-    spec.source                   = { :http=> ''}
+    spec.source                   = { :http=> 'https://github.com/gxr761/poc_kmm'}
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'Some description for the Shared Module'
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
         'KOTLIN_PROJECT_PATH' => ':shared',
         'PRODUCT_MODULE_NAME' => 'shared',
     }
-                
+
     spec.script_phases = [
         {
             :name => 'Build shared',
