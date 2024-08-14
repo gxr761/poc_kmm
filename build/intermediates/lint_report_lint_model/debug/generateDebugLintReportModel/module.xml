@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/dtidigital/AndroidStudioProjects/POC_SW/shared"
+    name=":shared"
+    type="LIBRARY"
+    maven="POC_SW:shared:unspecified"
+    agpVersion="8.5.0"
+    buildFolder="build"
+    bootClassPath="/Users/dtidigital/Library/Android/sdk/platforms/android-34/android.jar:/Users/dtidigital/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

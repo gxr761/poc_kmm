@@ -1,0 +1,30 @@
+<variant
+    name="debug"
+    package="br.com.dti.poc_sw"
+    minSdkVersion="26"
+    targetSdkVersion="26"
+    debuggable="true"
+    mergedManifest="build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml"
+    partialResultsDir="build/intermediates/android_test_lint_partial_results/debug/lintAnalyzeDebugAndroidTest/out"
+    desugaredMethodsFiles="/Users/dtidigital/.gradle/caches/transforms-4/f31a382c3090454951558aab1112df98/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+  </sourceProviders>
+  <testSourceProviders>
+    <sourceProvider
+        manifests="src/androidInstrumentedTest/AndroidManifest.xml"
+        javaDirectories="src/androidTest/java:src/androidTestDebug/java:src/androidInstrumentedTest/kotlin:src/androidTest/kotlin:src/androidTestDebug/kotlin"
+        resDirectories="src/androidTest/res:src/androidInstrumentedTest/res:src/androidTestDebug/res"
+        assetsDirectories="src/androidTest/assets:src/androidInstrumentedTest/assets:src/androidTestDebug/assets"
+        androidTest="true"/>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      type="INSTRUMENTATION_TEST"
+      applicationId="br.com.dti.poc_sw.test"
+      generatedResourceFolders="build/generated/res/resValues/androidTest/debug"
+      desugaredMethodsFiles="/Users/dtidigital/.gradle/caches/transforms-4/f31a382c3090454951558aab1112df98/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

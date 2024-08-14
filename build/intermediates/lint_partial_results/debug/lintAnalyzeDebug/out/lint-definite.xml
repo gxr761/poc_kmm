@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.0" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.8.0 is available: 1.9.1">
+        <fix-replace
+            description="Change to 1.9.1"
+            family="Update versions"
+            oldString="1.8.0"
+            replacement="1.9.1"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/POC_SW/gradle/libs.versions.toml"
+            line="6"
+            column="28"
+            startOffset="115"
+            endLine="6"
+            endColumn="35"
+            endOffset="122"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.ui:ui than 1.5.4 is available: 1.6.8">
+        <fix-replace
+            description="Change to 1.6.8"
+            family="Update versions"
+            oldString="1.5.4"
+            replacement="1.6.8"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/POC_SW/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="52"
+            endLine="4"
+            endColumn="18"
+            endOffset="59"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.ui:ui-tooling than 1.5.4 is available: 1.6.8">
+        <fix-replace
+            description="Change to 1.6.8"
+            family="Update versions"
+            oldString="1.5.4"
+            replacement="1.6.8"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/POC_SW/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="52"
+            endLine="4"
+            endColumn="18"
+            endOffset="59"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.ui:ui-tooling-preview than 1.5.4 is available: 1.6.8">
+        <fix-replace
+            description="Change to 1.6.8"
+            family="Update versions"
+            oldString="1.5.4"
+            replacement="1.6.8"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/POC_SW/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="52"
+            endLine="4"
+            endColumn="18"
+            endOffset="59"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="Upgrade `androidx.compose.foundation` for keyboard and mouse support">
+        <fix-replace
+            description="Change to 1.6.8"
+            family="Update versions"
+            oldString="1.5.4"
+            replacement="1.6.8"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/POC_SW/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="52"
+            endLine="4"
+            endColumn="18"
+            endOffset="59"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.material3:material3 than 1.1.2 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.2"
+            replacement="1.2.1"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/POC_SW/gradle/libs.versions.toml"
+            line="5"
+            column="21"
+            startOffset="80"
+            endLine="5"
+            endColumn="28"
+            endOffset="87"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.5.0 is available: 8.5.2">
+        <fix-replace
+            description="Change to 8.5.2"
+            family="Update versions"
+            robot="true"
+            independent="true"
+            oldString="8.5.0"
+            replacement="8.5.2"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/POC_SW/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.library than 8.5.0 is available: 8.5.2">
+        <fix-replace
+            description="Change to 8.5.2"
+            family="Update versions"
+            robot="true"
+            independent="true"
+            oldString="8.5.0"
+            replacement="8.5.2"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/POC_SW/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+</incidents>
